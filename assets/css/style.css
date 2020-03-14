@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: "Raleway", sans-serif;
+  color: #e42c64;
+}
+
+.sign {
+  text-transform: uppercase;
+  display: inline-block;
+  background: linear-gradient(135deg, #f500d7 40%, #b400ff 40%, #c9d109 87%, #00d4ff 40%);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  padding-top: 60px;
+  margin-left: 130px;
+}
+
+.cartel {
+  margin-top: 3rem;
+  width: 22rem;
+  height: 24rem;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffcc00), to(#6600cc));
+  background-image: linear-gradient(to right bottom, #ffcc00, #6600cc);
+  border-radius: 10px;
+  border: 2px solid #ffcc00;
+}
+
+.cartel-header {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.cartel-input {
+  height: 4rem;
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  margin-left: 1rem;
+  width: 90%;
+  margin-bottom: 2.5rem;
+  padding: 3px 15px 4px 20px;
+}
+
+.cartel-input::-webkit-input-placeholder {
+  color: #cc0000;
+}
+
+.cartel-input:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.cartel-submit {
+  margin-left: 4.9rem;
+  width: 55%;
+  height: 3.3rem;
+  border-radius: 35px;
+  background-color: white;
+  color: #cc0000;
+}
+
+.cartel-submit:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.martle {
+  margin-top: 3rem;
+  width: 22rem;
+  height: 24rem;
+  background: linear-gradient(135deg, #f500d7 0%, #b400ff 50%, #c9d109 100%);
+  border-radius: 10px;
+  border: 2px solid #b400ff;
+}
+
+.martle-header {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #880176;
+}
+
+.martle-input {
+  height: 4rem;
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  margin-left: 1rem;
+  width: 90%;
+  margin-bottom: 2.5rem;
+  padding: 3px 15px 4px 20px;
+}
+
+.martle-input::-webkit-input-placeholder {
+  color: #b400ff;
+}
+
+.martle-input:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.martle-submit {
+  margin-left: 4.9rem;
+  width: 55%;
+  height: 3.3rem;
+  border-radius: 35px;
+  background-color: white;
+  color: #b400ff;
+}
+
+.martle-submit:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.sartel {
+  margin-top: 47px;
+  border: 2px solid #00d4ff;
+  width: 22rem;
+  height: 24rem;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#020024), color-stop(#25787a), to(#00d4ff));
+  background-image: linear-gradient(to right bottom, #020024, #25787a, #00d4ff);
+  border-radius: 10px;
+  color: #020024;
+}
+
+.sartel-header {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #adacc3;
+}
+
+.sartel-input {
+  height: 4rem;
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  margin-left: 1rem;
+  width: 90%;
+  margin-bottom: 2.5rem;
+  padding: 3px 15px 4px 20px;
+  outline-offset: 2rem;
+}
+
+.sartel-input::-webkit-input-placeholder {
+  color: #020024;
+}
+
+.sartel-input:focus {
+  outline: none;
+}
+
+.sartel-submit {
+  margin-left: 4.9rem;
+  width: 55%;
+  height: 3.3rem;
+  border-radius: 35px;
+  background-color: white;
+  color: #020024;
+}
+
+.sartel-submit:focus {
+  outline: none;
+  border: 1px solid white;
+}
+
+.reacts {
+  height: 5rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  padding-left: 4rem;
+}
+
+.reacts .fa {
+  font-size: 8rem;
+  color: #6600cc;
+  padding: 4rem;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.reacts h2 {
+  font-size: 6rem;
+  padding: 2rem;
+}
+
+.reacts-2 {
+  margin-left: 20rem;
+}
+
+.reacts-2-icon-box {
+  border: 2px solid white;
+  margin: 20px auto;
+  width: 250px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.reacts-1 {
+  margin-right: 4rem;
+}
+
+.reacts-1-icon-box {
+  border: 2px solid white;
+  margin: 20px auto;
+  width: 250px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+/*# sourceMappingURL=style.css.map */

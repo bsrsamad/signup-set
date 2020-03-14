@@ -1,0 +1,195 @@
+@import "variables/variables.scss";
+body {
+    margin: 0;
+    padding: 0;
+    background: $bg-color;
+    font-family: $raleway;
+    color: rgba(228, 44, 100, 1);
+    // background-image: linear-gradient( 135deg, rgba(245, 0, 215, 1) 40%, rgba(180, 0, 255, 1) 40%, rgba(201, 209, 9, 1) 87%, rgb(0, 212, 255) 40%), url(../img/01f7396f21e74d58818d2c4ec28639cc.jpg);
+}
+
+.sign {
+    text-transform: uppercase;
+    display: inline-block;
+    background: linear-gradient( 135deg, rgba(245, 0, 215, 1) 40%, rgba(180, 0, 255, 1) 40%, rgba(201, 209, 9, 1) 87%, rgb(0, 212, 255) 40%);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    margin-left: 130px;
+}
+
+.cartel {
+    margin-top: 3rem;
+    // margin-left: 24rem;
+    width: 22rem;
+    height: 24rem;
+    background-image: linear-gradient( to right bottom, $color-yellow, $color-purple);
+    border-radius: 10px;
+    border: 2px solid $color-yellow;
+    &-header {
+        text-align: center;
+        padding-top: 1rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    &-input {
+        height: 4rem;
+        background-color: $color-white;
+        border: none;
+        border-radius: 35px;
+        margin-left: 1rem;
+        width: 90%;
+        margin-bottom: 2.5rem;
+        // color: $color-red;
+        padding: 3px 15px 4px 20px;
+        &::-webkit-input-placeholder {
+            color: $color-red;
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $color-white;
+        }
+    }
+    &-submit {
+        margin-left: 4.9rem;
+        width: 55%;
+        height: 3.3rem;
+        border-radius: 35px;
+        background-color: $color-white;
+        color: $color-red;
+        &:focus {
+            outline: none;
+            border: 1px solid $color-white;
+        }
+    }
+}
+
+.martle {
+    margin-top: 3rem;
+    width: 22rem;
+    height: 24rem;
+    background: linear-gradient( 135deg, rgba(245, 0, 215, 1) 0%, rgba(180, 0, 255, 1) 50%, rgba(201, 209, 9, 1) 100%);
+    border-radius: 10px;
+    border: 2px solid #b400ff;
+    &-header {
+        text-align: center;
+        padding-top: 1rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color: rgb(136, 1, 118);
+    }
+    &-input {
+        height: 4rem;
+        background-color: $color-white;
+        border: none;
+        border-radius: 35px;
+        margin-left: 1rem;
+        width: 90%;
+        margin-bottom: 2.5rem;
+        // color: $color-red;
+        padding: 3px 15px 4px 20px;
+        &::-webkit-input-placeholder {
+            color: rgba(180, 0, 255, 1);
+        }
+        &:focus {
+            outline: none;
+            border: 1px solid $color-white;
+        }
+    }
+    &-submit {
+        margin-left: 4.9rem;
+        width: 55%;
+        height: 3.3rem;
+        border-radius: 35px;
+        background-color: $color-white;
+        color: rgba(180, 0, 255, 1);
+        &:focus {
+            outline: none;
+            border: 1px solid $color-white;
+        }
+    }
+}
+
+.sartel {
+    margin-top: 47px;
+    border: 2px solid #00d4ff;
+    width: 22rem;
+    height: 24rem;
+    background-image: linear-gradient( to right bottom, $blue-bluelak, $color-blue-dark, $color-blue-light);
+    border-radius: 10px;
+    color: $blue-bluelak;
+    &-header {
+        text-align: center;
+        padding-top: 1rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color: #adacc3;
+    }
+    &-input {
+        height: 4rem;
+        background-color: $color-white;
+        border: none;
+        border-radius: 35px;
+        margin-left: 1rem;
+        width: 90%;
+        margin-bottom: 2.5rem;
+        // color: $color-red;
+        padding: 3px 15px 4px 20px;
+        outline-offset: 2rem;
+        &::-webkit-input-placeholder {
+            color: $blue-bluelak;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &-submit {
+        margin-left: 4.9rem;
+        width: 55%;
+        height: 3.3rem;
+        border-radius: 35px;
+        background-color: $color-white;
+        color: $blue-bluelak;
+        &:focus {
+            outline: none;
+            border: 1px solid $color-white;
+        }
+    }
+}
+
+.reacts {
+    height: 5rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding-left: 4rem;
+    .fa {
+        font-size: 8rem;
+        color: $color-purple;
+        padding: 4rem;
+        transform: rotate(-45deg);
+    }
+    h2 {
+        font-size: 6rem;
+        padding: 2rem;
+    }
+    &-2 {
+        margin-left: 20rem;
+        &-icon-box {
+            border: 2px solid $color-white;
+            margin: 20px auto;
+            width: 250px;
+            transform: rotate(45deg);
+        }
+    }
+    &-1 {
+        margin-right: 4rem;
+        &-icon-box {
+            border: 2px solid $color-white;
+            margin: 20px auto;
+            width: 250px;
+            transform: rotate(45deg);
+        }
+    }
+}
